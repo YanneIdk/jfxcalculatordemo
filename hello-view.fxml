@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nanotechnologies.jfxtest.Controller">
+   <effect>
+      <Glow />
+   </effect>
+   <children>
+      <Button fx:id="buttonONE" layoutX="53.0" layoutY="135.0" mnemonicParsing="false" onAction="#onnumberclick" prefHeight="60.0" prefWidth="80.0" text="1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonTWO" layoutX="140.0" layoutY="135.0" mnemonicParsing="false" onAction="#onnumberclick" prefHeight="60.0" prefWidth="80.0" text="2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonTHREE" layoutX="225.0" layoutY="135.0" mnemonicParsing="false" onAction="#onnumberclick" prefHeight="60.0" prefWidth="80.0" text="3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonFOUR" layoutX="140.0" layoutY="205.0" mnemonicParsing="false" onAction="#onnumberclick" prefHeight="60.0" prefWidth="80.0" text="5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonFIVE" layoutX="226.0" layoutY="205.0" mnemonicParsing="false" onAction="#onnumberclick" prefHeight="60.0" prefWidth="80.0" text="6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSIX" layoutX="52.0" layoutY="205.0" mnemonicParsing="false" onAction="#onnumberclick" prefHeight="60.0" prefWidth="80.0" text="4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSEVEN" layoutX="53.0" layoutY="275.0" mnemonicParsing="false" onAction="#onnumberclick" prefHeight="60.0" prefWidth="80.0" text="7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonEIGHT" layoutX="140.0" layoutY="275.0" mnemonicParsing="false" onAction="#onnumberclick" prefHeight="60.0" prefWidth="80.0" text="8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonNINE" layoutX="225.0" layoutY="275.0" mnemonicParsing="false" onAction="#onnumberclick" prefHeight="60.0" prefWidth="80.0" text="9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonO" layoutX="140.0" layoutY="345.0" mnemonicParsing="false" onAction="#onnumberclick" prefHeight="60.0" prefWidth="80.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonMINUS" layoutX="230.0" layoutY="351.0" mnemonicParsing="false" onAction="#onMinusClick" prefHeight="50.0" prefWidth="70.0" text="-">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonPLUS" layoutX="57.0" layoutY="351.0" mnemonicParsing="false" onAction="#onPlusClick" prefHeight="50.0" prefWidth="70.0" text="+">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Separator layoutX="30.0" layoutY="75.0" prefHeight="5.0" prefWidth="300.0" />
+      <Separator layoutX="28.0" layoutY="75.0" orientation="VERTICAL" prefHeight="342.0" prefWidth="6.0" />
+      <Separator layoutX="327.0" layoutY="75.0" orientation="VERTICAL" prefHeight="342.0" prefWidth="6.0" />
+      <Separator layoutX="29.0" layoutY="415.0" prefHeight="5.0" prefWidth="300.0" />
+      <TextField fx:id="Display" layoutX="69.0" layoutY="94.0" prefHeight="25.0" prefWidth="220.0" />
+      <Button layoutX="127.0" layoutY="23.0" mnemonicParsing="false" onAction="#calculate" prefHeight="35.0" prefWidth="70.0" text="Calculate" />
+      <Button layoutX="36.0" layoutY="23.0" mnemonicParsing="false" onAction="#reset" prefHeight="35.0" prefWidth="70.0" text="Reset" textFill="RED" />
+      <Separator layoutX="36.0" layoutY="66.0" prefHeight="5.0" prefWidth="284.0" />
+      <Button layoutX="216.0" layoutY="23.0" mnemonicParsing="false" onAction="#backspace" prefHeight="35.0" prefWidth="100.0" text="Backspace" />
+   </children>
+</AnchorPane>
